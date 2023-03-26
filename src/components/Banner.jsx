@@ -1,5 +1,6 @@
 import React from "react";
 import { SlArrowDown } from "react-icons/sl";
+import { BsMouse } from "react-icons/bs";
 import { socials } from "../data/socials";
 import { Tooltip } from "react-tooltip";
 
@@ -8,12 +9,16 @@ const Banner = () => {
     <div className="relative h-screen min-h-screen bg-black flex items-center justify-center bg-[url('images/background.jpeg')] bg-no-repeat bg-cover bg-bottom">
       <div className="absolute inset-0 bg-black opacity-80"></div>
       <div className="relative text-white flex flex-col items-center gap-10">
-        <img
-          src="images/avatar.jpeg"
-          alt="avatar"
-          className="w-[250px] rounded-full"
-        />
-        <h1 className="text-5xl">Hi, I'm Hieu</h1>
+        <div className="p-3 bg-white rounded-full bg-gradient-to-r from-green-500">
+          <img
+            src="images/avatar.jpeg"
+            alt="avatar"
+            className="w-[200px] rounded-full"
+          />
+        </div>
+        <h1 className="text-5xl font-semibold text-transparent bg-clip-text bg-gradient-to-r from-white to-green-500">
+          Hi, I'm Hieu
+        </h1>
         <div className="flex gap-4">
           {socials &&
             socials.map((item) => (
@@ -40,11 +45,12 @@ const Banner = () => {
             ))}
         </div>
       </div>
-      <SlArrowDown
-        color="white"
-        size={50}
-        className="absolute bottom-10 animate-bounce"
-      />
+      <div className="absolute flex flex-col items-center justify-center bottom-10 animate-bounce cursor-pointer">
+        <span className="block w-full text-center text-white tracking-widest text-sm mb-2">
+          scroll
+        </span>
+        <BsMouse color="white" size={40} />
+      </div>
     </div>
   );
 };
