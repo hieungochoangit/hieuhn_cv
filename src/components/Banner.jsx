@@ -9,14 +9,14 @@ const Banner = () => {
     <div className="relative h-screen min-h-screen bg-black flex items-center justify-center bg-[url('images/background.jpeg')] bg-no-repeat bg-cover bg-bottom">
       <div className="absolute inset-0 bg-black opacity-80"></div>
       <div className="relative text-white flex flex-col items-center gap-10">
-        <div className="p-3 bg-white rounded-full bg-gradient-to-r from-green-500">
+        <div className="p-3 bg-white rounded-full bg-gradient-to-r from-primary">
           <img
             src="images/avatar.jpeg"
             alt="avatar"
             className="w-[200px] rounded-full"
           />
         </div>
-        <h1 className="text-5xl font-semibold text-transparent bg-clip-text bg-gradient-to-r from-white to-green-500">
+        <h1 className="text-5xl font-semibold text-transparent bg-clip-text bg-gradient-to-r from-white to-primary">
           Hi, I'm Hieu
         </h1>
         <div className="flex gap-4">
