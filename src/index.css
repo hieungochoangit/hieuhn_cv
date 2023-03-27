@@ -6,7 +6,7 @@
 
 @layer base {
   body {
-    @apply font-mons bg-black;
+    @apply font-mons bg-black overflow-x-hidden;
   }
 
   * {
