@@ -2,8 +2,8 @@ import React from "react";
 
 const Wrap = (props) => {
   return (
-    <section className="container mb-20 bg-white p-4 shadow-lg rounded-lg hover:shadow-xl">
-      <div className="border-l-8 border-primary p-2 uppercase">
+    <section className="relative container mb-20 bg-white p-4 shadow-lg beforeSection afterSection">
+      <div className="border-l-8 border-primary p-2 uppercase border-b border-t shadow-lg">
         <div className="text-[12px] tracking-[6px] text-[#888888]">
           {props.subtitle}
         </div>

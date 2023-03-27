@@ -7,7 +7,7 @@ function App() {
   return (
     <>
       <Banner />
-      <div className="max-w-[800px] mx-auto py-10 px-2">
+      <div className="max-w-[920px] mx-auto py-10 px-2">
         <AboutMe />
         <Skill />
       </div>
