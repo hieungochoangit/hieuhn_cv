@@ -8,6 +8,25 @@
   body {
     @apply font-mons bg-black;
   }
+
+  * {
+    scrollbar-width: thin;
+    scrollbar-color: black black;
+  }
+
+  *::-webkit-scrollbar {
+    width: 1px;
+  }
+
+  *::-webkit-scrollbar-track {
+    background: black;
+    border-radius: 5px;
+  }
+
+  *::-webkit-scrollbar-thumb {
+    background-color: black;
+    border-radius: 14px;
+  }
 }
 
 @layer components {
