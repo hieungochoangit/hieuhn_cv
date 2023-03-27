@@ -6,7 +6,7 @@
 
 @layer base {
   body {
-    @apply font-mons;
+    @apply font-mons bg-black;
   }
 }
 

@@ -1,5 +1,6 @@
 import React from "react";
 import Wrap from "./Wrap";
+import { AiOutlineDownload } from "react-icons/ai";
 
 const AboutMe = () => {
   return (
@@ -9,7 +10,7 @@ const AboutMe = () => {
         <span className="textPrimary">Hieu Hoang Ngoc</span>
         ,
       </p>
-      <p>
+      <p className="mb-4">
         Currently, I am living and working in Hanoi. A{" "}
         <span className="textPrimary">
           Frontend Developer
@@ -22,6 +23,15 @@ const AboutMe = () => {
         , with good knowledge of{" "}
         <span className="textPrimary">UI/UX, OOP.</span>
       </p>
+
+      <a
+        href="files/Hieu-Hoang-Ngoc-CV.pdf"
+        download
+        className="inline-flex px-4 py-2 items-center gap-4 rounded-md bg-primary text-white hover:opacity-90"
+      >
+        <span>Download CV</span>{" "}
+        <AiOutlineDownload size={20} />
+      </a>
     </Wrap>
   );
 };
