@@ -37,7 +37,7 @@
     @apply flex flex-col items-center justify-center transition-all max-w-[60px] max-h-[60px] relative left-1/2 -translate-x-[50%];
   }
   .beforeSection {
-    @apply before:w-full before:h-full before:absolute before:top-4  before:left-4 before:-z-10 before:bg-[#EEE];
+    @apply before:w-full before:h-full before:absolute before:top-4  before:left-4 before:-z-10 before:bg-[#EEE] before:shadow-lg;
   }
   .afterSection {
     @apply after:w-full after:h-full after:absolute after:top-8 after:left-8 after:-z-20 after:bg-[#DDD];
