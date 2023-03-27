@@ -25,7 +25,7 @@ const AboutMe = () => {
       </p>
 
       <a
-        href="files/Hieu-Hoang-Ngoc-CV.pdf"
+        href="assets/files/Hieu-Hoang-Ngoc-CV.pdf"
         download
         className="inline-flex px-4 py-2 items-center gap-4 rounded-md bg-primary text-white hover:opacity-90"
       >

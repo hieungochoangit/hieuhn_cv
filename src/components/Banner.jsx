@@ -1,17 +1,16 @@
 import React from "react";
-import { SlArrowDown } from "react-icons/sl";
 import { BsMouse } from "react-icons/bs";
 import { socials } from "../data/socials";
 import { Tooltip } from "react-tooltip";
 
 const Banner = () => {
   return (
-    <div className="relative h-screen min-h-screen bg-black flex items-center justify-center bg-[url('images/background.jpeg')] bg-no-repeat bg-cover bg-bottom">
+    <div className="relative h-screen min-h-screen bg-black flex items-center justify-center bg-[url('../assets/images/background.jpeg')] bg-no-repeat bg-cover bg-bottom">
       <div className="absolute inset-0 bg-black opacity-80"></div>
       <div className="relative text-white flex flex-col items-center gap-10">
         <div className="p-3 bg-white rounded-full bg-gradient-to-r from-primary">
           <img
-            src="images/avatar.jpeg"
+            src="assets/images/avatar.jpeg"
             alt="avatar"
             className="w-[200px] rounded-full"
           />
