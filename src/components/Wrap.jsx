@@ -7,7 +7,7 @@ const Wrap = (props) => {
         <div className="text-[12px] tracking-[6px] text-[#888888]">
           {props.subtitle}
         </div>
-        <h1 className="text-2xl tracking-wide">
+        <h1 className="text-3xl tracking-wide font-semibold">
           {props.title}
         </h1>
       </div>

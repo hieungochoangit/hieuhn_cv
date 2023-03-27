@@ -1,4 +1,5 @@
 import React from "react";
+import { SlArrowDown } from "react-icons/sl";
 import { BsMouse } from "react-icons/bs";
 import { socials } from "../data/socials";
 import { Tooltip } from "react-tooltip";

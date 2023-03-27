@@ -4,7 +4,7 @@ const Footer = () => {
   return (
     <div className="bg-black text-white">
       <div className="text-center py-2 text-[12px]">
-        Thiết kế bởi{" "}
+        Designed by{" "}
         <a
           target="_blank"
           href="https://github.com/hieungochoangit"
