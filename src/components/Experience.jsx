@@ -16,7 +16,7 @@ const Experience = () => {
               <h3 className="text-lg font-semibold uppercase">
                 {exp.company}
               </h3>
-              <p className="mb-4 text-base font-normal">
+              <p className="mb-4 text-base font-normal whitespace-pre-wrap">
                 {exp.content}
               </p>
             </li>
