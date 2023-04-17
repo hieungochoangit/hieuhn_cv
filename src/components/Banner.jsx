@@ -21,8 +21,8 @@ const Banner = () => {
         </h1>
         <div className="flex gap-4">
           {socials &&
-            socials.map((item) => (
-              <>
+            socials.map((item, index) => (
+              <React.Fragment key={index}>
                 <a
                   target="_blank"
                   href={item.link}
@@ -41,7 +41,7 @@ const Banner = () => {
                     {item.name}
                   </span>
                 </Tooltip>
-              </>
+              </React.Fragment>
             ))}
         </div>
       </div>
