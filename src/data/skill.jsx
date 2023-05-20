@@ -24,6 +24,10 @@ export const skills = [
     alt: "nextjs",
   },
   {
+    src: "assets/images/skills/vuejs.png",
+    alt: "vuejs",
+  },
+  {
     src: "assets/images/skills/nodejs.png",
     alt: "nodejs",
   },

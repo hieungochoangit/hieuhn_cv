@@ -7,7 +7,7 @@ const AboutMe = () => {
     <Wrap subtitle="information" title="about me">
       <p>
         Hi, I'm{" "}
-        <span className="textPrimary">Hieu Hoang Ngoc</span>
+        <span className="textPrimary">Ngoc Hieu Hoang</span>
         ,
       </p>
       <p className="mb-4">
@@ -17,7 +17,7 @@ const AboutMe = () => {
         </span>{" "}
         with{" "}
         <span className="textPrimary">
-          3 years of experience in Javascript technologies
+          3 years of experience in Javascript technologies (ReactJS, VueJs)
           and 1 year of experience in Laravel, NodeJs
         </span>
         , with good knowledge of{" "}
@@ -25,7 +25,7 @@ const AboutMe = () => {
       </p>
 
       <a
-        href="assets/files/Hieu-Hoang-Ngoc-CV.pdf"
+        href="assets/files/Ngoc-Hieu-Hoang-CV.pdf"
         download
         className="inline-flex px-4 py-2 items-center gap-4 rounded-md bg-primary text-white hover:opacity-90"
       >
