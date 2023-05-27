@@ -7,7 +7,7 @@ module.exports = {
       center: true,
     },
     colors: {
-      primary: "green",
+      primary: "#007FFF",
       white: "white",
       black: "black",
     },
